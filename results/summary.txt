@@ -1,0 +1,9 @@
+Hybrid EA-MOPSO
+particles=10  iterations=100  runs=10  seed=1  HV reference point=[1.1, 1.1]
+HV is normalised by the hypervolume of the true Pareto front (1.0 = perfect).
+
+Problem  n_var    HV mean    HV std   IGD mean   IGD std  time/run
+ZDT1        30     0.2537    0.0895     0.4754    0.0824      0.4s
+ZDT2        30     0.1070    0.1022     0.5280    0.1615      0.4s
+ZDT3        30     0.2893    0.0713     0.5702    0.0990      0.3s
+DTLZ2        7     0.8658    0.0250     0.0441    0.0110      0.1s

@@ -1,0 +1,58 @@
+
+ZDT1
+  run  1: solutions= 16  HV=0.1532  IGD=0.5736  time=0.2s
+  run  2: solutions= 16  HV=0.1362  IGD=0.6068  time=0.2s
+  run  3: solutions= 17  HV=0.2247  IGD=0.4809  time=0.2s
+  run  4: solutions= 19  HV=0.1485  IGD=0.5670  time=0.3s
+  run  5: solutions= 16  HV=0.2260  IGD=0.4831  time=0.3s
+  run  6: solutions= 24  HV=0.3086  IGD=0.4279  time=0.3s
+  run  7: solutions= 15  HV=0.3577  IGD=0.3754  time=0.5s
+  run  8: solutions= 18  HV=0.3809  IGD=0.3702  time=0.5s
+  run  9: solutions= 22  HV=0.3684  IGD=0.3804  time=0.5s
+  run 10: solutions= 24  HV=0.2334  IGD=0.4888  time=0.6s
+
+ZDT2
+  run  1: solutions= 19  HV=0.2620  IGD=0.3210  time=0.4s
+  run  2: solutions=  1  HV=0.0000  IGD=0.7197  time=0.5s
+  run  3: solutions=  8  HV=0.0000  IGD=0.7065  time=0.5s
+  run  4: solutions=  5  HV=0.1279  IGD=0.5660  time=0.4s
+  run  5: solutions=  3  HV=0.0000  IGD=0.7216  time=0.4s
+  run  6: solutions=  1  HV=0.0000  IGD=0.6886  time=0.4s
+  run  7: solutions= 13  HV=0.1624  IGD=0.3828  time=0.4s
+  run  8: solutions= 16  HV=0.1859  IGD=0.3702  time=0.4s
+  run  9: solutions= 12  HV=0.0713  IGD=0.4609  time=0.5s
+  run 10: solutions= 14  HV=0.2606  IGD=0.3432  time=0.4s
+
+ZDT3
+  run  1: solutions= 19  HV=0.4850  IGD=0.3246  time=0.5s
+  run  2: solutions= 17  HV=0.2841  IGD=0.5787  time=0.4s
+  run  3: solutions= 16  HV=0.3163  IGD=0.5374  time=0.3s
+  run  4: solutions= 19  HV=0.2706  IGD=0.5366  time=0.3s
+  run  5: solutions= 15  HV=0.3141  IGD=0.5090  time=0.3s
+  run  6: solutions= 12  HV=0.2649  IGD=0.6149  time=0.3s
+  run  7: solutions= 17  HV=0.2281  IGD=0.6641  time=0.3s
+  run  8: solutions= 18  HV=0.2363  IGD=0.6947  time=0.3s
+  run  9: solutions= 19  HV=0.2480  IGD=0.6141  time=0.3s
+  run 10: solutions= 21  HV=0.2453  IGD=0.6282  time=0.3s
+
+DTLZ2
+  run  1: solutions= 30  HV=0.8590  IGD=0.0413  time=0.1s
+  run  2: solutions= 39  HV=0.8906  IGD=0.0431  time=0.1s
+  run  3: solutions= 35  HV=0.8763  IGD=0.0425  time=0.1s
+  run  4: solutions= 28  HV=0.8688  IGD=0.0481  time=0.1s
+  run  5: solutions= 25  HV=0.8229  IGD=0.0726  time=0.2s
+  run  6: solutions= 35  HV=0.8624  IGD=0.0348  time=0.1s
+  run  7: solutions= 36  HV=0.8278  IGD=0.0464  time=0.1s
+  run  8: solutions= 31  HV=0.8713  IGD=0.0422  time=0.2s
+  run  9: solutions= 29  HV=0.8668  IGD=0.0421  time=0.1s
+  run 10: solutions= 34  HV=0.9121  IGD=0.0279  time=0.2s
+
+Hybrid EA-MOPSO
+particles=10  iterations=100  runs=10  seed=1  HV reference point=[1.1, 1.1]
+HV is normalised by the hypervolume of the true Pareto front (1.0 = perfect).
+
+Problem  n_var    HV mean    HV std   IGD mean   IGD std  time/run
+ZDT1        30     0.2537    0.0895     0.4754    0.0824      0.4s
+ZDT2        30     0.1070    0.1022     0.5280    0.1615      0.4s
+ZDT3        30     0.2893    0.0713     0.5702    0.0990      0.3s
+DTLZ2        7     0.8658    0.0250     0.0441    0.0110      0.1s

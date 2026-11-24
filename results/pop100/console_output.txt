@@ -1,0 +1,30 @@
+
+ZDT1
+  run  1: solutions= 33  HV=0.4759  IGD=0.3003  time=1.2s
+  run  2: solutions= 24  HV=0.4854  IGD=0.2869  time=2.4s
+  run  3: solutions= 27  HV=0.4110  IGD=0.3436  time=2.8s
+
+ZDT2
+  run  1: solutions= 20  HV=0.2124  IGD=0.3281  time=2.8s
+  run  2: solutions= 22  HV=0.2244  IGD=0.3424  time=2.9s
+  run  3: solutions= 17  HV=0.2353  IGD=0.3183  time=2.5s
+
+ZDT3
+  run  1: solutions= 27  HV=0.4311  IGD=0.3931  time=2.4s
+  run  2: solutions= 16  HV=0.4827  IGD=0.3379  time=2.2s
+  run  3: solutions= 34  HV=0.4271  IGD=0.3821  time=2.2s
+
+DTLZ2
+  run  1: solutions=100  HV=0.9701  IGD=0.0124  time=1.2s
+  run  2: solutions=100  HV=0.9751  IGD=0.0139  time=1.4s
+  run  3: solutions=100  HV=0.9767  IGD=0.0111  time=1.2s
+
+Hybrid EA-MOPSO
+particles=100  iterations=100  runs=3  seed=1  HV reference point=[1.1, 1.1]
+HV is normalised by the hypervolume of the true Pareto front (1.0 = perfect).
+
+Problem  n_var    HV mean    HV std   IGD mean   IGD std  time/run
+ZDT1        30     0.4575    0.0331     0.3103    0.0242      2.1s
+ZDT2        30     0.2240    0.0094     0.3296    0.0099      2.7s
+ZDT3        30     0.4470    0.0253     0.3710    0.0238      2.3s
+DTLZ2        7     0.9740    0.0028     0.0125    0.0011      1.3s
